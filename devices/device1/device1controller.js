@@ -2,21 +2,18 @@
 
 const neeoapi = require('neeo-sdk');
 
-const controller1 = {
+const controller = {
   onButtonPressed: function onButtonPressed(name) {
-    console.log(`[NEAR-CONTROLLER] ${name} button pressed`);
-
-    // TODO implement the actions for your device here
+    console.log(`[DEVICE 1-CONTROLLER] ${name} button pressed`);
   }
-  }
-};
+  };
 
 const device1test = neeoapi.buildDevice('Device 1')
   .setManufacturer('NEEO')
   .addAdditionalSearchToken('device 1')
-  .setType('TV')
+  .setType('ACCESSORY')
 
   .addButton({ name: 'button-1', label: 'Button 1' })
-  .addButtonHandler(controller1.onButtonPressed);
+  .addButtonHandler(controller.onButtonPressed);
 
 module.exports = device1test;
