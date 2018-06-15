@@ -1,0 +1,30 @@
+{
+  "name": "multidevicetest",
+  "version": "0.1.0",
+  "description": "testing new cli for multidevice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "neeo-sdk start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amr024/multidevicetest.git"
+  },
+  "keywords": [
+    "test",
+    "neeo",
+    "cli",
+    "multi",
+    "device"
+  ],
+  "author": "Aaron Ranson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amr024/multidevicetest/issues"
+  },
+  "homepage": "https://github.com/amr024/multidevicetest#readme",
+  "dependencies": {
+    "neeo-sdk": "^0.50.5"
+  }
+}
