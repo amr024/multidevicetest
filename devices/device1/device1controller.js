@@ -4,7 +4,7 @@ const neeoapi = require('neeo-sdk');
 
 const controller = {
   onButtonPressed: function onButtonPressed(name) {
-    console.log(`[DEVICE 1-CONTROLLER] ${name} button pressed`);
+    console.log(`[DEVICE 1-CONTROLLER] ${name} pressed`);
   }
   };
 
